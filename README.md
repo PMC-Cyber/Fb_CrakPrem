@@ -19,17 +19,17 @@ Tool created by UC-09 (./B7 )
 <br>
 ```pkg install neofetch```
 <br>
-'''pkg install wget'''
+```pkg install wget```
 <br>
-pip install requests'''
+```|pip install requests```
 <br>
-'''pip2 install requests'''
+```pip2 install requests```
 <br>
-'''pip install bs4'''
+```pipinstall bs4```
 <br>
-'''pip install rich'''
+```pip install rich```
 <br>
-'''pip install stdiomask'''
+```pip install stdiomask```
 <br>
 ```rm -rf Fb_CrakPrem```
 <br>
