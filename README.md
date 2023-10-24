@@ -21,7 +21,7 @@ Tool created by UC-09 (./B7 )
 <br>
 ```pkg install wget```
 <br>
-```|pip install requests```
+```pip install requests```
 <br>
 ```pip2 install requests```
 <br>
