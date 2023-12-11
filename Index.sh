@@ -203,8 +203,7 @@ printf "\e[0m\n"
 read -p $'  \e[1;31m>>\e[0m\e[1;96m  \en' update
 
 if [[ $update == 1 || $update == 01 ]]; then
-banner2
-menu
+msg_exit
 elif [[ $update == 2 || $update == 02 ]]; then
 clear
 printf "\e[0m\n"
@@ -212,7 +211,7 @@ printf "\e[97m╦ ╦ ╔═╗ ╔╦╗ ╔═╗ ╔╦╗ ╔═╗  \e[0m\n
 printf "\e[97m║ ║ ╠═╝  ║║ ╠═╣  ║  ║╣\e[0m\n"
 printf "\e[97m╚═╝ ╩   ═╩╝ ╩ ╩  ╩  ╚═╝ \e[0m\n"
 cd $HOME 
-cdrm -rf Fb_CrakPrem
+rm -rf Fb_CrakPrem
 git clone https://github.com/Unlimited-Crack-You/Fb_CrakPrem
 cd Fb_CrakPrem
 sleep 1
