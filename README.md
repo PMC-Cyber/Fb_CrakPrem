@@ -20,7 +20,7 @@ Tool created by UC-09 (./B7 )
 <br>
 ```cd Fb_CrakPrem```
 <br>
-```bash index.sh```
+```bash Index.sh```
 <br>
 
 Copyright © 2022, UCH-2009 
