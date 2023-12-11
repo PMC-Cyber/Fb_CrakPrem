@@ -115,6 +115,7 @@ banner
 printf "\e[0m\n"
 printf "  \e[0m\e[1;91m[\e[0m\e[1;97m01\e[0m\e[1;91m]\e[0m\e[1;93m TERMUX\e[0m\n"
 printf "  \e[0m\e[1;91m[\e[0m\e[1;97m02\e[0m\e[1;91m]\e[0m\e[1;93m LINUX\e[0m\n"
+printf "  \e[0m\e[1;91m[\e[0m\e[1;97m00\e[0m\e[1;91m]\e[0m\e[1;93m BACK TO MENU\e[0m\n"
 printf "\e[0m\n"
 read -p $'  \e[1;31m>>\e[0m\e[1;96m  \en' bahan
 
@@ -145,6 +146,8 @@ printf " \e[0m\e[1;93mINSTALLING SELESAI MENCOBA MASUK !\e[0m\e[1;91m!! \e[0m\n"
 printf "\e[0m\n"
 sleep 1
 update
+elif [[ $bahan == 0 || $bahan == 00 ]]; then
+install_bahan
 elif [[ $bahan == 2 || $bahan == 02 ]]; then
 clear
 echo " "
@@ -175,7 +178,7 @@ update
 else
 printf " \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
 sleep 1
-install_bahan
+pilih
 fi
 }
 
